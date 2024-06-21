@@ -1,0 +1,11 @@
+C:\senai\Senai.Core\bin\Debug\net8.0\Senai.Core.deps.json
+C:\senai\Senai.Core\bin\Debug\net8.0\Senai.Core.dll
+C:\senai\Senai.Core\bin\Debug\net8.0\Senai.Core.pdb
+C:\senai\Senai.Core\obj\Debug\net8.0\Senai.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\senai\Senai.Core\obj\Debug\net8.0\Senai.Core.AssemblyInfoInputs.cache
+C:\senai\Senai.Core\obj\Debug\net8.0\Senai.Core.AssemblyInfo.cs
+C:\senai\Senai.Core\obj\Debug\net8.0\Senai.Core.csproj.CoreCompileInputs.cache
+C:\senai\Senai.Core\obj\Debug\net8.0\Senai.Core.dll
+C:\senai\Senai.Core\obj\Debug\net8.0\refint\Senai.Core.dll
+C:\senai\Senai.Core\obj\Debug\net8.0\Senai.Core.pdb
+C:\senai\Senai.Core\obj\Debug\net8.0\ref\Senai.Core.dll

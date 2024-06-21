@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Senai.Api.Controllers.CarrosController.CreateCar(Senai.Core.Requests.Cars.CreateCarsRequest)">
+             <summary>
+             Cria um novo carro.
+             </summary>
+             <remarks>
+             Exemplo de corpo da requisição:
+            
+                 POST /v1/Carros
+                 {
+                     "marca": "string",
+                     "modelo": "string",
+                     "cor": "string",
+                     "placa": "string"
+                 }
+             </remarks>
+        </member>
+        <member name="M:Senai.Api.Controllers.CarrosController.UpdateCar(Senai.Core.Requests.Cars.UpdateCarsRequest,System.Int64)">
+            <summary>
+            Atualiza dados de um carro.
+            </summary>
+            <param name="request"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.Api.Controllers.CarrosController.DeleteCar(System.Int64)">
+            <summary>
+            Deleta um carro
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.Api.Controllers.CarrosController.GetAllCars(System.Int32,System.Int32)">
+            <summary>
+            Recupera todos os carros.
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pagesize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Senai.Api.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Senai.Api.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Senai.Api.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Senai.Api.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
